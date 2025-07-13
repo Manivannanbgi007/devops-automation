@@ -26,6 +26,7 @@ public class TestapiApplication extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Application is starting...");
 		SpringApplication.run(TestapiApplication.class, args);
 	}
 
